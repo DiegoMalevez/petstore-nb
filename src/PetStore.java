@@ -77,7 +77,6 @@ public class PetStore {
         species.add(Pangolin.class);
         species.add(Lemur.class);
         species.add(Tapir.class);
-        species.add(Unicorn.class);
         PetStore store = new PetStore(10, species);
         store.run();
     }
